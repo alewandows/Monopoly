@@ -16,7 +16,7 @@ public class Main {
 			try {
 				numPlayers = Integer.parseInt(numberOfPlayers);
 			} catch (NumberFormatException e) {
-				JOptionPane.showMessageDialog(window, "Please input a number");
+				JOptionPane.showMessageDialog(window, "Please input a number ");
 			}
 			if (numPlayers <= 0 || numPlayers > GameMaster.MAX_PLAYER) {
 				JOptionPane.showMessageDialog(window, "Please input a number between one and eight");
